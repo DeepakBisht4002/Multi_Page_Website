@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.navbar {
+  background-color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.menu_active {
+  font-weight: 800;
+  border-bottom: 2px solid #565387;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+.up-down-animation {
+  position: absolute;
+  animation: moveUpDown 5s infinite; /* Adjust animation duration as needed */
+}
+.image-container {
+  position: relative;
+  margin-top: 55px;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.error-img {
+  position: relative;
+  margin-top: 55px;
+  margin-left: 30%;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+}
+.brand-name {
+  color: #3498db;
+}
+.card-img-top {
+  height: 30vh;
+  object-fit: cover;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name {
+  color: #3498db;
+}
+#header h2 {
+  color: #565387;
+  font-size: 23px;
+}
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background: #3498db;
+  color: #f4f4f4;
+}
