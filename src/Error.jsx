@@ -7,7 +7,7 @@ const Error = ()=>{
   
     return(
         <>
-            <h1 className="text-center">Error 404 : Page not found</h1>
+            <h1 className="text-center font-weight-bold">Error 404 : Page not found</h1>
             <img src={web} alt="error" className="error-img up-down-animation" />
         </>
     )

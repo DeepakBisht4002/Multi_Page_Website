@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-import "./index.css";
+import "./index.scss";
 
 import Home from "./Home";
 import About from "./About";
